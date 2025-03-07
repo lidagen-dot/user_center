@@ -17,7 +17,6 @@ const NO_NEED_LOGIN_WHITELIST = ['/user/register', loginPath];
 
 
 
-
 export const request: RequestConfig = {
   //baseUrl不加端口8080可以
   baseURL:process.env.NODE_ENV === 'production' ? 'https://springboot-cy09-144378-5-1346809069.sh.run.tcloudbase.com' : undefined,
